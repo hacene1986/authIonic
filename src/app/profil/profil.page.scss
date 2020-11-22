@@ -1,0 +1,71 @@
+.header{
+    background-color: #2c5364;
+    height: 180px;
+    padding-top: 1px;
+}
+
+.header h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow p {
+    color: white;
+    margin: 8px 0 0 0;
+}
+
+.imgBox{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.border-white{
+    border: 4px solid white;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.border-g{
+    border: 6px solid #2c5364;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: -76px;
+}
+
+.tweet{
+    margin-top: -10px;
+}
+
+.tweet ion-label{
+    line-height: 1!important;
+    font-size: 15px;
+    margin: 6px 0px 6px 0px !important;
+    min-height: 34px;
+}
+
+.tweet-img{
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
